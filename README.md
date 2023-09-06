@@ -97,7 +97,7 @@ Install Composer: https://getcomposer.org/doc/00-intro.md
 ## Laravel JSON:API Backend Installation
 
 1. Navigate in your Laravel API project folder: `cd your-laravel-json-api-project`
-2. Install project dependencies: `composer install`
+2. Install project dependencies: `composer update`
 3. Create a new .env file: `cp .env.example .env`
 4. Add your own database credentials in the .env file in DB_DATABASE, DB_USERNAME, DB_PASSWORD
 5. Create users table: `php artisan migrate --seed`
